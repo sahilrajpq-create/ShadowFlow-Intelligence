@@ -1,0 +1,24 @@
+Sender,Receiver,Amount,Date,Description
+Alice_Account,Bob_Account,500,2026-04-01,Rent payment
+Bob_Account,Charlie_Store,150,2026-04-02,Groceries
+Alice_Account,David_Consulting,12000,2026-04-02,Contractor fee
+David_Consulting,Eve_Services,8000,2026-04-03,Subcontracting
+Eve_Services,Alice_Account,200,2026-04-04,Refund
+Frank_Corp,Alice_Account,80000,2026-04-05,Payroll
+Grace_Inc,Frank_Corp,150000,2026-04-06,Invoice payment
+
+# --- CIRCULAR LOOP PATTERN ---
+Evil_Node1,Evil_Node2,7500,2026-04-07,Transfer
+Evil_Node2,Evil_Node3,7500,2026-04-07,Transfer
+Evil_Node3,Evil_Node1,7500,2026-04-07,Transfer
+
+# --- FREQUENCY & SAME-VALUE REPEATS ---
+Spam_Bot,Target_1,15,2026-04-08,Micro
+Spam_Bot,Target_2,15,2026-04-08,Micro
+Spam_Bot,Target_3,15,2026-04-08,Micro
+Spam_Bot,Target_4,15,2026-04-08,Micro
+Spam_Bot,Target_5,15,2026-04-08,Micro
+Spam_Bot,Target_6,15,2026-04-08,Micro
+Spam_Bot,Target_7,15,2026-04-08,Micro
+Spam_Bot,Target_8,15,2026-04-08,Micro
+Spam_Bot,Target_9,15,2026-04-08,Micro
